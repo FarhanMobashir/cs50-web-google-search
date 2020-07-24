@@ -21,28 +21,44 @@ form div {
     margin-top: 40px;
 }
 
-
-
-input[type=text]:focus {
-    background-color: lightblue;
-  }
-
-  input[type=text]:hover{
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 1px 1px 1px 1px rgb(221, 221, 221);
-  }
-
-form > input {
-  width: 40%;
-  padding: 12px 20px;
-  margin-left: 33em;
-  border: 1px solid rgb(171, 171, 171);
-  border-radius: 50px;
-  box-sizing: border-box;
+input[type=submit]{
+    margin: 10px;
 }
 
 a {
     font-weight: bolder;
     font-size: larger;
 }
+
+.search {
+    max-width: 28px;
+    max-height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+    
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(206, 206, 206) 1px;
+    border-radius: 50px;
+    max-width: 600px;
+    max-height: 600px;
+    padding:5px;
+    margin-left:27.3em;
+    margin-top: -5px;
+    
+}
+
+.search-box:hover{
+    box-shadow: 1px 1px 1px 1px rgb(208, 208, 208);
+}
+
+input[type=text] {
+    border-style: none;
+    border-radius: 50px;
+    flex-grow: 1;
+}
+
