@@ -22,7 +22,12 @@ form div {
 }
 
 input[type=submit]{
-    margin: 10px;
+    margin: 8px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    color: grey;
 }
 
 a {
@@ -47,8 +52,7 @@ a {
     max-width: 600px;
     max-height: 600px;
     padding:5px;
-    margin-left:27.3em;
-    margin-top: -5px;
+    margin: 0 auto 0 auto;
     
 }
 
@@ -60,5 +64,14 @@ input[type=text] {
     border-style: none;
     border-radius: 50px;
     flex-grow: 1;
+}
+
+input[type=submit]:hover{
+
+    border: solid 0.5px rgb(62, 62, 62);
+    border-radius: 5px;
+    background: rgb(243, 243, 243);
+    border-style: inset;
+    color:black;
 }
 
