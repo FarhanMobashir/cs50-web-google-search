@@ -50,6 +50,7 @@ hr {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 form{
@@ -71,6 +72,7 @@ form{
     padding-left:50px;
     padding-right: 100px;
     
+    
 }
 label{
     padding: 10px;
@@ -78,20 +80,22 @@ label{
 .form-subsection p{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 60px;
-   
+    padding-right: 40px;
     font-size: 12px;
 }
 
 input{
-    
-    padding: 5px;
-    border-style: inset;
+    width: 500px;
+    padding: 10px;
+    border-style: outset;
 }
 
 .input div{
-    padding: 3px;
-    width: 100%;
+    padding: 4px;
+    
+}
+.input .range input{
+    width: 218px;
 }
 
 
