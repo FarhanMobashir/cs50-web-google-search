@@ -78,10 +78,11 @@ label{
     padding-top: 25px;
     padding-bottom: 20px;
 }
-.form-subsection p{
-    padding-top: 25px;
+.form-subsection p {
+    padding-top: 24.5px;
     padding-bottom: 25px;
     padding-right: 40px;
+    padding-left: 20px;
     font-size: 12px;
 }
 
@@ -96,7 +97,7 @@ input{
     padding-top: 5px;
 }
 .input .range input{
-    width: 228px;
+    width: 227.2px;
     
 }
 
@@ -133,4 +134,8 @@ select{
     background-color:#377ef0;
     color:white;
     border-radius: 5px;
+   }
+
+   span{
+       font-family: 'Courier New', Courier, monospace;
    }
