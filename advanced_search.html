@@ -79,31 +79,84 @@
                 <label for="">file type:</label>
                 <label for="">usage rights:</label>
             </div>
-            <div class="input">
+            <div class="select">
                 <div>
-                    <input type="text">
-                    </div>
-                    <div>
-                        <input type="text">
-                        </div>
-                        <div>
-                            <input type="text">
-                            </div>
+                   
+                <select name="languages">
+                    <option value="default">any language</option>
+                    <option value="hindi">Hindi</option>
+                    <option value="english">English</option>
+                    <option value="chinese">Chinese</option>
+                    <option value="japanese">Japanese</option>
+                  </select>
+                  </div>
+
+                  <div>
+                    
+                <select name="region">
+                    <option value="default">any region</option>
+                    <option value="india">India</option>
+                    <option value="us">US</option>
+                    <option value="china">China</option>
+                    <option value="japan">Japan</option>
+                  </select>
+                  </div>
+
+                  <div>
+                   
+                <select name="time">
+                    <option value="default">anytime</option>
+                    <option value="last 24 hour">Last 24 hour</option>
+                    <option value="upto a week ago">upto a week ago</option>
+                    <option value="upto a month ago">upto a month ago</option>
+                    <option value="upto a year ago">upto a year ago</option>
+                  </select>
+                  </div>
+                   
+                        
                 <div>
                 <input type="text">
                 </div>
+
                 <div>
-                    <input type="text">
-                    </div>
-                    <div>
-                        <input type="text">
-                        </div>
-                        <div>
-                            <input type="text">
-                            </div>
-                            <div>
-                                <input type="text">
-                                </div>
+                   
+                    <select name="terms-appearing">
+                        <option value="default">anywhere in the page</option>
+                        <option value="in the title of the page">in the title of the page</option>
+                        <option value="in the text of the page">in the text of the page</option>
+                        <option value="in the URL of the page">in the URL of the page</option>
+                        <option value="in the link of the page">in the link of the page</option>
+                      </select>
+                      </div>
+                      <div>
+                      <select name="relevant-result">
+                        <option value="default">show most relevant results</option>
+                        <option value="filter explicit results">filter explicit results</option>
+                        </select>
+                      </div>
+                      <div>
+                   
+                        <select name="file-type">
+                            <option value="default">any format</option>
+                            <option value="pdf">Adobe Acrobat (.pdf)</option>
+                            <option value="ppt">Microsoft PowerPoint (.ppt)</option>
+                            <option value="doc">Microsoft Word(.doc)</option>
+                            <option value="dwf">AutoDesk (.dwf)</option>
+                          </select>
+                          </div>
+
+                          <div>
+                   
+                            <select name="licence">
+                                <option value="default">not filtered by licence</option>
+                                <option value="free">free to use or share</option>
+                                <option value="free-commerce">free to use or share, even commercially</option>
+                                <option value="free-modify">free to use, share or modify</option>
+                                <option value="free++">free to use, share, modify, even commercially</option>
+                              </select>
+                              </div>
+
+                
                            
             </div>
         </form>
@@ -119,8 +172,9 @@
         </div>
         </div>
         
-
-
+        <div class="advanced">
+        <input type="submit" value="Advanced Search">
+        </div>
     
     
 </body>

@@ -97,7 +97,27 @@ input{
 }
 .input .range input{
     width: 228px;
+    
 }
 
+select{
+    width:100%;
+    
+}
 
+.select div{
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
 
+.advanced {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 50px;
+   }
+
+   .advanced input{
+    background-color:#377ef0;
+    color:white;
+   }
