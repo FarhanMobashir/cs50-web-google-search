@@ -102,12 +102,14 @@ input{
 
 select{
     width:100%;
+    background-color: #f3f3f3;
+       border-style: inset;
     
 }
 
 .select div{
     padding-left: 60px;
-    padding-top: 20px;
+    padding-top: 18px;
     padding-bottom: 22px;
 }
 
@@ -115,9 +117,20 @@ select{
    display: flex;
    justify-content: center;
    padding-bottom: 50px;
+   padding-right: 300px;
+   padding-left: 300px;
+   
    }
 
    .advanced input{
+    background-color:#4f8ef3;
+    color:white;
+    border-radius: 5px;
+    width:180px;
+   }
+
+   .advanced input:hover{
     background-color:#377ef0;
     color:white;
+    border-radius: 5px;
    }
