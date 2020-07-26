@@ -1,7 +1,10 @@
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     /* margin-bottom: 200px;  this is not good practice */
+}
+.header-elements{
+    padding: 10px;
 }
 /* Code written by rizwan correction */
 
