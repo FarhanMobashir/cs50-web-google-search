@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main_search.css">
-    <title>Google</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main_search.css">
+  <title>Google</title>
 </head>
+
 <body>
-    
+
   <nav>
-      <div class="header">
-         
-          <div class="header-elements"><a href="image_search.html">Image Search</a></div>
-          <div class="header-elements"><a href="advanced_search.html">Advance Search</a></div>
+    <div class="header">
+      <div class="header-elements">
+        <a href="image_search.html">Image Search</a>
       </div>
+      <div class="header-elements">
+        <a href="advanced_search.html">Advance Search</a>
+      </div>
+    </div>
   </nav>
   <main>
-      <div class="main-image"><img src="assets/images/google-logo.png" alt="Main Image"></div>
+    <section class="google-search-bar-seaction">
+      <div class="main-image">
+        <img src="assets/images/google-logo.png" alt="Main Image">
+      </div>
       <form action="https://google.com/search">
-        <div class="search-box">
-        <img class="search" src="assets/images/search_icon.png" alt="search">
-        <input class="input-area" type="text" name="q">
+        <div class="searbox-wrapper">
+          <div class="search-box">
+            <img class="search-box-image" src="assets/images/search_icon.png" alt="search">
+            <input class="input-area" type="text" name="q">
+          </div>
         </div>
+       
         <div class="buttons">
-        <input type="submit" value="Google Search">
-        <input type="submit" value="I'm Feeling Lucky">
+          <input type="submit" value="Google Search">
+          <input type="submit" value="I'm Feeling Lucky">
         </div>
-    </form>
-  </main>   
+      </form>
+    </section>
+
+  </main>
 </body>
+
 </html>

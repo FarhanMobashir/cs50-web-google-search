@@ -79,7 +79,7 @@ label{
     padding-bottom: 20px;
 }
 .form-subsection p {
-    padding-top: 24.5px;
+    padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 40px;
     padding-left: 20px;
@@ -103,8 +103,12 @@ input{
 
 select{
     width:100%;
-    background-color: #f3f3f3;
-       border-style: inset;
+    background-color: #f1f0f0;
+    border-style: inset;
+    border-radius: 5px;
+    padding-bottom: 0.2px;
+    padding-top: 0.2px;
+   
     
 }
 

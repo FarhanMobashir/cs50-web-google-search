@@ -1,24 +1,65 @@
 .header {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px;  this is not good practice */
 }
-.main-image img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:320px;
-    max-height:400px;
-    width: auto;
-    height: auto;
-    margin-top: -4em;
-    padding-bottom: 30px;
+/* Code written by rizwan correction */
+
+.google-search-bar-seaction{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-form div {
+.main-image {
+    align-self: center;
+    padding: 1rem;
+    padding-top: 180px;
+}
+
+.main-image img {
+    max-width:320px;
+    width: auto;
+    height: auto;
+}
+
+form {
     display: flex;
-    justify-content:center;
-    margin-top: 40px;
+    flex-direction: column;
+}
+
+.searbox-wrapper{
+    display: flex;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+.search-box{
+    display: flex;
+    align-self: center;
+    width: 580px;
+    border-radius: 50px;
+    border: solid rgb(206, 206, 206) 1px;
+    padding:16px;
+}
+
+.search-box:hover{
+    box-shadow: 1px 1px 1px 1px rgb(208, 208, 208);
+}
+
+
+.search-box-image{
+    max-width: 28px;
+    max-height: 18px;
+}
+
+input[type=text] {
+    border-style: none;
+    flex-grow: 1;
+    padding-left: 16px;
+}
+.buttons{
+    align-self: center;
 }
 
 input[type=submit]{
@@ -29,6 +70,17 @@ input[type=submit]{
     border: none;
     border-radius: 5px;
     color: grey;
+}
+
+
+input[type=submit]:hover{
+
+    /* border: solid 0.1px rgb(86, 86, 86); */
+    border-radius: 5px;
+    background: rgb(243, 243, 243);
+    border-style: none;
+    color:rgb(56, 56, 56);
+    box-shadow: 1px 1px 1px 1px rgb(208, 208, 208);
     
 }
 
@@ -37,7 +89,7 @@ a {
     font-size: larger;
 }
 
-.search {
+/* .search {
     max-width: 28px;
     max-height: 18px;
     margin-left: auto;
@@ -45,37 +97,22 @@ a {
     padding: 9px;
     
     
-}
-.search-box{
+} */
+/* .search-box{
     display: flex;
     justify-content: center;
     border: solid rgb(206, 206, 206) 1px;
     border-radius: 50px;
     max-width: 600px;
     max-height: 600px;
-    padding:5px;
+    
     margin: 0 auto 0 auto;
     
-}
+} */
 
-.search-box:hover{
-    box-shadow: 1px 1px 1px 1px rgb(208, 208, 208);
-}
 
-input[type=text] {
-    border-style: none;
-    border-radius: 50px;
-    flex-grow: 1;
-    padding-left: 10px;
-}
 
-input[type=submit]:hover{
 
-    border: solid 0.5px rgb(86, 86, 86);
-    border-radius: 5px;
-    background: rgb(243, 243, 243);
-    border-style: inset;
-    color:rgb(56, 56, 56);
-   
-}
+
+
 
