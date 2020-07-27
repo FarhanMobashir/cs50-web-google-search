@@ -16,9 +16,8 @@ img{
 }
 h2{
     background-color: white;
-    padding-left: 60px;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-left: 33px;
+    padding-top: 20px;
     color:#e17054;
     font-size: 25px;
     font-weight: 100;
@@ -31,18 +30,18 @@ hr {
 .sub-heading{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     
 }
 .sub-head1{
-    padding-left: 55px;
+    padding-left: 32px;
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
  }
 
  .sub-head2{
-    padding-right: 25em;
-    padding-top: 50px;
+    padding-right: 32rem;
+    padding-top: 20px;
     font-weight: bolder;
     color: #777777;
  }
@@ -82,7 +81,25 @@ hr {
 
 
 .input-box input{
-    width: 100%;
+    border-radius: 3px;
+    border-style: solid;
+    width: 96%;
+    padding: 10px;
+}
+
+.range-box{
+    display: flex;
+}
+
+.range{
+    padding: 10px;
+}
+.input-box input:focus{
+    border-radius: 3px;
+    border-style: inset;
+    border: solid 1px #4788ef;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #4788ef ;
+    width: 96%;
     padding: 10px;
 }
 .subtext{
@@ -107,16 +124,26 @@ hr {
 }
 
 hr{
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 select{
-    width: 555px;
+    width: 100%;
     background-color: #f3f3f3;
+    padding-top: 2px;
+    padding-bottom: 2px;
     border-style: outset;
-    border-radius: 5px;
+    border-radius: 3px;
 }
+select:hover{
+    width: 100%;
+    background-color: #f0f0f0;
+    border-style: outset;
+    border-radius: 3px;
+}
+
+
 
 span{
     font-family: 'Courier New', Courier, monospace;
@@ -125,14 +152,22 @@ span{
 .button{
     display: flex;
     justify-content: center;
+    padding-top: 20px;
     padding-bottom: 40px;
-    padding-right: 70px;
+    padding-right: 100px;
     }
 
 .submit-button{
     background-color: #4788ef;
     color:white;
     padding: 10px;
+    border-radius: 3px;
+}    
+.submit-button:hover{
+    background-color: #3c80ee;
+    color:white;
+    padding: 10px;
+    border-radius:3px;
 }    
 
 

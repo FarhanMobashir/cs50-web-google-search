@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/image_search.css">
-    <title>Google Image Search</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main_search.css">
+  <title>Google</title>
 </head>
+
 <body>
-    
+
   <nav>
-      <div class="header">
-         
-          <div class="header-elements"><a href="main_search.html">Google Home</a></div>
-          <div class="header-elements"><a href="advanced_search.html">Advance Search</a></div>
+    <div class="header">
+      <div class="header-elements">
+        <a href="main_search.html">Google Search</a>
       </div>
+      <div class="header-elements">
+        <a href="advanced_search.html">Advance Search</a>
+      </div>
+    </div>
   </nav>
   <main>
-      <div class="main-image"><img src="assets/images/google-logo.png" alt="Main Image"></div>
-      <form action="https://www.google.co.in/imghp?hl=en&tab=wi&authuser=0&ogbl">
-        <div class="search-box">
-        <img class="search" src="assets/images/search.png" alt="search">
-        <input class="input-area" type="text" name="q">
+    <section class="google-search-bar-seaction">
+      <div class="main-image">
+        <img src="assets/images/google-logo.png" alt="Main Image">
+      </div>
+      <form action="https://www.google.co.in/search">
+        <div class="searbox-wrapper">
+          <div class="search-box">
+            <img class="search-box-image" src="assets/images/search_icon.png" alt="search">
+            <input type="hidden" name="tbm" value="isch">
+            <input class="input-area" type="text" name="q">
+          </div>
         </div>
+       
         <div class="buttons">
-        <input type="submit" value="Image Search">
-        
+          <input type="submit" value="Image Search">
+          
         </div>
-    </form>
-  </main>   
+      </form>
+    </section>
+
+  </main>
 </body>
+
 </html>

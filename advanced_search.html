@@ -29,7 +29,7 @@
     </div>
 
     <div class="main">
-        <form class="form-section" action="https://google.com/advanced_search">
+        <form class="form-section" action="https://google.com/search">
 
             <!-- <div class="label">
                 
@@ -65,7 +65,7 @@
                     <label class="form-item-name">all these words:</label>
                 </div>
                 <div class="input-box">
-                    <input type="text">
+                    <input type="text" name="as_q">
                 </div>
                 <div class="subtext">
                     <p class="subtext">Type the important words: <span>tri-colour rat terrier</span></p>
@@ -77,7 +77,7 @@
                     <label class="form-item-name">this exact word or phrase:</label>
                 </div>
                 <div class="input-box">
-                    <input type="text">
+                    <input type="text" name="as_epq">
                 </div>
                 <div class="subtext">
                     <p class="subtext">Put exact words in quotes: <span> "rat terrier"</span></p>
@@ -89,7 +89,7 @@
                     <label class="form-item-name">any of these words:</label>
                 </div>
                 <div class="input-box">
-                    <input type="text">
+                    <input type="text" name="as_oq">
                 </div>
                 <div class="subtext">
                     <p class="subtext">Type OR between all the words you want: <span> miniature OR standard</span></p>
@@ -101,7 +101,7 @@
                     <label class="form-item-name">none of these words:</label>
                 </div>
                 <div class="input-box">
-                    <input type="text">
+                    <input type="text" name="as_eq">
                 </div>
                 <div class="subtext">
                     <p class="subtext">Put a minus sign just before words that you don't want: <span> -rodent, -"Jack Russell"
@@ -113,8 +113,8 @@
                 <div class="label-name">
                     <label class="form-item-name">numbers ranging from:</label>
                 </div>
-                <div class="input-box">
-                    <input type="text">
+                <div class="input-box range-box" >
+                    <input type="text" name="as_nlo"><p class="range">to</p><input type="text" name="as_nhi">
                 </div>
                 <div class="subtext">
                     <p class="subtext"> Put two full stops between the numbers and add a unit of measurement: <span> 10..35 kg, £300..£500, 2010..2011</span>
@@ -137,8 +137,8 @@
                     <label class="form-item-name">language:</label>
                 </div>
                 <div class="input-box">
-                    <select name="languages">
-                        <option value="default">any language</option>
+                    <select name="lr">
+                        <option value="">any language</option>
                         <option value="hindi">Hindi</option>
                         <option value="english">English</option>
                         <option value="chinese">Chinese</option>
@@ -155,8 +155,8 @@
                     <label class="form-item-name">region:</label>
                 </div>
                 <div class="input-box">
-                    <select name="region">
-                        <option value="default">any region</option>
+                    <select name="cr">
+                        <option value="">any region</option>
                         <option value="india">India</option>
                         <option value="us">US</option>
                         <option value="china">China</option>
@@ -173,8 +173,8 @@
                     <label class="form-item-name">last update:</label>
                 </div>
                 <div class="input-box">
-                    <select name="time">
-                        <option value="default">anytime</option>
+                    <select name="as_qdr=all">
+                        <option value="">anytime</option>
                         <option value="last 24 hour">Last 24 hour</option>
                         <option value="upto a week ago">upto a week ago</option>
                         <option value="upto a month ago">upto a month ago</option>
@@ -191,7 +191,7 @@
                     <label class="form-item-name">site or domain:</label>
                 </div>
                 <div class="input-box">
-                    <input type="text">
+                    <input type="text" name="as_sitesearch">
                 </div>
                 <div class="subtext">
                     <p class="subtext">Search one site (like <span> wikipedia.org</span> ) or limit your results to a domain like <span> .edu, .org or .gov
@@ -204,8 +204,8 @@
                     <label class="form-item-name">terms appearing:</label>
                 </div>
                 <div class="input-box">
-                    <select name="terms-appearing">
-                        <option value="default">anywhere in the page</option>
+                    <select name="as_occt=any">
+                        <option value="">anywhere in the page</option>
                         <option value="in the title of the page">in the title of the page</option>
                         <option value="in the text of the page">in the text of the page</option>
                         <option value="in the URL of the page">in the URL of the page</option>
@@ -228,8 +228,8 @@
                     <label class="form-item-name"><a class="safe-search" href="https://support.google.com/websearch?p=adv_safesearch&hl=en">SafeSearch:</a></label>
                 </div>
                 <div class="input-box">
-                    <select name="relevant-result">
-                        <option value="default">show most relevant results</option>
+                    <select name="safe=images">
+                        <option value="value" selected>show most relevant results</option>
                         <option value="filter explicit results">filter explicit results</option>
                         </select>
                 </div>
@@ -247,8 +247,8 @@
                     <label class="form-item-name">file type:</label>
                 </div>
                 <div class="input-box">
-                    <select name="file-type">
-                        <option value="default">any format</option>
+                    <select name="as_filetype">
+                        <option value="">any format</option>
                         <option value="pdf">Adobe Acrobat (.pdf)</option>
                         <option value="ppt">Microsoft PowerPoint (.ppt)</option>
                         <option value="doc">Microsoft Word(.doc)</option>
@@ -268,8 +268,8 @@
                     <label class="form-item-name"><a class="safe-search" href="https://support.google.com/websearch?p=ws_images_usagerights&hl=en">usage right:</a></label>
                 </div>
                 <div class="input-box">
-                    <select name="licence">
-                        <option value="default">not filtered by licence</option>
+                    <select name="tbs">
+                        <option value="">not filtered by licence</option>
                         <option value="free">free to use or share</option>
                         <option value="free-commerce">free to use or share, even commercially</option>
                         <option value="free-modify">free to use, share or modify</option>
@@ -285,14 +285,14 @@
 
             </div>
 
-
+            <div class="button">
+                <input class= "submit-button" type="submit" value="Advanced Search">
+            </div>
         </form>
 
     </div>
 
-    <div class="button">
-        <input class= "submit-button" type="submit" name="advanced-search" value="Advanced Search">
-    </div>
+    
 
 </body>
 
