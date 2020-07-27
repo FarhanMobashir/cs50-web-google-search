@@ -1,125 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/advanced_search.css">
     <title>Google Advanced Search</title>
 </head>
+
 <body>
     <header>
         <div>
             <a href="main_search.html"><img src="assets/images/google-logo-removebg-preview.png" alt="Logo"></a>
 
         </div>
-        <div class="heading"><h2>Advanced Search</h2></div>
+        <div class="heading">
+            <h2>Advanced Search</h2>
+        </div>
     </header>
     <hr>
     <div class="sub-heading">
-        <div class="sub-head1"><p>Find pages with..</p></div>
-        <div class="sub-head2"><p>To do this in the search box</p></div>
-    </div>
-
-    <div class="main">
-    <form class="form-section" action="https://google.com/advanced_search">
-        <div class="label">
-
-            <label for="">all these words:</label>
-            <label for="">this exact word or phrase:</label>
-            <label for="">any of these words:</label>
-            <label for="">none of these words:</label>
-            <label for="">numbers ranging from:</label>
+        <div class="sub-head1">
+            <p>Find pages with..</p>
         </div>
-        <div class="input">
-            <div>
-            <input type="text">
-            </div>
-            <div>
-                <input type="text">
-                </div>
-                <div>
-                    <input type="text">
-                    </div>
-                    <div>
-                        <input type="text">
-                        </div>
-                       <div class="range">
-                <input type="text">
-            <label for="">to</label>
-            <input type="text">
-            </div>
+        <div class="sub-head2">
+            <p>To do this in the search box</p>
         </div>
-    </form>
-    <div class="form-subsection">
-       
-        <p>Type the important words: <span>tri-colour rat terrier</span></p>
-        <p>Put exact words in quotes: <span> "rat terrier"</span></p>
-        <p>Type OR between all the words you want: <span> miniature OR standard</span></p>
-        <p>Put a minus sign just before words that you don't want: <span> -rodent, -"Jack Russell" </span></p>
-        <p>Put two full stops between the numbers and add a unit of measurement: <span> 10..35 kg, £300..£500, 2010..2011</span></p>
-        
     </div>
-    </div>
-<hr>
-<div class="sub-heading">
-    <div class="sub-head1"><p>Then narrow your result by..</p></div>
-    
-</div>
 
     <div class="main">
         <form class="form-section" action="https://google.com/advanced_search">
-            <div class="label">
-    
-                <label for="">language:</label>
-                <label for="">region:</label>
-                <label for="">last update:</label>
-                <label for="">site or domain:</label>
-                <label for="">terms appearing:</label>
-                <label for="">SafeSearch:</label>
-                <label for="">file type:</label>
-                <label for="">usage rights:</label>
+
+            <!-- <div class="label">
+                
+
+                <label for="">all these words:</label>
+                <label for="">this exact word or phrase:</label>
+                <label for="">any of these words:</label>
+                <label for="">none of these words:</label>
+                <label for="">numbers ranging from:</label>
             </div>
-            <div class="select">
+            <div class="input">
                 <div>
-                   
-                <select name="languages">
-                    <option value="default">any language</option>
-                    <option value="hindi">Hindi</option>
-                    <option value="english">English</option>
-                    <option value="chinese">Chinese</option>
-                    <option value="japanese">Japanese</option>
-                  </select>
-                  </div>
-
-                  <div>
-                    
-                <select name="region">
-                    <option value="default">any region</option>
-                    <option value="india">India</option>
-                    <option value="us">US</option>
-                    <option value="china">China</option>
-                    <option value="japan">Japan</option>
-                  </select>
-                  </div>
-
-                  <div>
-                   
-                <select name="time">
-                    <option value="default">anytime</option>
-                    <option value="last 24 hour">Last 24 hour</option>
-                    <option value="upto a week ago">upto a week ago</option>
-                    <option value="upto a month ago">upto a month ago</option>
-                    <option value="upto a year ago">upto a year ago</option>
-                  </select>
-                  </div>
-                   
-                        
+                    <input type="text">
+                </div>
                 <div>
-                <input type="text">
+                    <input type="text">
+                </div>
+                <div>
+                    <input type="text">
+                </div>
+                <div>
+                    <input type="text">
+                </div>
+                <div class="range">
+                    <input type="text">
+                    <label for="">to</label>
+                    <input type="text">
+                </div>
+            </div> -->
+            <!-- Correct way  -->
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name">all these words:</label>
+                </div>
+                <div class="input-box">
+                    <input type="text">
+                </div>
+                <div class="subtext">
+                    <p class="subtext">Type the important words: <span>tri-colour rat terrier</span></p>
                 </div>
 
-                <div>
-                   
+            </div>
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name">this exact word or phrase:</label>
+                </div>
+                <div class="input-box">
+                    <input type="text">
+                </div>
+                <div class="subtext">
+                    <p class="subtext">Put exact words in quotes: <span> "rat terrier"</span></p>
+                </div>
+
+            </div>
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name">any of these words:</label>
+                </div>
+                <div class="input-box">
+                    <input type="text">
+                </div>
+                <div class="subtext">
+                    <p class="subtext">Type OR between all the words you want: <span> miniature OR standard</span></p>
+                </div>
+
+            </div>
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name">none of these words:</label>
+                </div>
+                <div class="input-box">
+                    <input type="text">
+                </div>
+                <div class="subtext">
+                    <p class="subtext">Put a minus sign just before words that you don't want: <span> -rodent, -"Jack Russell"
+                    </p>
+                </div>
+            </div>
+
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name">numbers ranging from:</label>
+                </div>
+                <div class="input-box">
+                    <input type="text">
+                </div>
+                <div class="subtext">
+                    <p class="subtext"> Put two full stops between the numbers and add a unit of measurement: <span> 10..35 kg, £300..£500, 2010..2011</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="sub-heading">
+                <div class="sub-head1">
+                    <p>Then narrow your result by..</p>
+                </div>
+
+            </div>
+
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name">language:</label>
+                </div>
+                <div class="input-box">
+                    <select name="languages">
+                        <option value="default">any language</option>
+                        <option value="hindi">Hindi</option>
+                        <option value="english">English</option>
+                        <option value="chinese">Chinese</option>
+                        <option value="japanese">Japanese</option>
+                      </select>
+                </div>
+                <div class="subtext">
+                    <p class="subtext">Find pages in the language that you select.</p>
+                </div>
+
+            </div>
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name">region:</label>
+                </div>
+                <div class="input-box">
+                    <select name="region">
+                        <option value="default">any region</option>
+                        <option value="india">India</option>
+                        <option value="us">US</option>
+                        <option value="china">China</option>
+                        <option value="japan">Japan</option>
+                      </select>
+                </div>
+                <div class="subtext">
+                    <p class="subtext">Find pages published in a particular region.</p>
+                </div>
+
+            </div>
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name">last update:</label>
+                </div>
+                <div class="input-box">
+                    <select name="time">
+                        <option value="default">anytime</option>
+                        <option value="last 24 hour">Last 24 hour</option>
+                        <option value="upto a week ago">upto a week ago</option>
+                        <option value="upto a month ago">upto a month ago</option>
+                        <option value="upto a year ago">upto a year ago</option>
+                      </select>
+                </div>
+                <div class="subtext">
+                    <p class="subtext">Find pages updated within the time that you specify.</p>
+                </div>
+
+            </div>
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name">site or domain:</label>
+                </div>
+                <div class="input-box">
+                    <input type="text">
+                </div>
+                <div class="subtext">
+                    <p class="subtext">Search one site (like <span> wikipedia.org</span> ) or limit your results to a domain like <span> .edu, .org or .gov
+                    </p>
+                </div>
+            </div>
+
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name">terms appearing:</label>
+                </div>
+                <div class="input-box">
                     <select name="terms-appearing">
                         <option value="default">anywhere in the page</option>
                         <option value="in the title of the page">in the title of the page</option>
@@ -127,56 +211,89 @@
                         <option value="in the URL of the page">in the URL of the page</option>
                         <option value="in the link of the page">in the link of the page</option>
                       </select>
-                      </div>
-                      <div>
-                      <select name="relevant-result">
+                </div>
+                <div class="subtext">
+                    <p class="subtext"> Search for terms in the whole page, page title or web address, or links to the
+                        page you're looking for.
+                    </p>
+                </div>
+
+
+
+            </div>
+
+            
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name"><a class="safe-search" href="https://support.google.com/websearch?p=adv_safesearch&hl=en">SafeSearch:</a></label>
+                </div>
+                <div class="input-box">
+                    <select name="relevant-result">
                         <option value="default">show most relevant results</option>
                         <option value="filter explicit results">filter explicit results</option>
                         </select>
-                      </div>
-                      <div>
-                   
-                        <select name="file-type">
-                            <option value="default">any format</option>
-                            <option value="pdf">Adobe Acrobat (.pdf)</option>
-                            <option value="ppt">Microsoft PowerPoint (.ppt)</option>
-                            <option value="doc">Microsoft Word(.doc)</option>
-                            <option value="dwf">AutoDesk (.dwf)</option>
-                          </select>
-                          </div>
+                </div>
+                <div class="subtext">
+                    <p class="subtext">Tell <a class="safe-search" href="https://support.google.com/websearch?p=adv_safesearch&hl=en">SafeSearch</a> whether to filter sexually explicit content.
+                    </p>
+                </div>
 
-                          <div>
-                   
-                            <select name="licence">
-                                <option value="default">not filtered by licence</option>
-                                <option value="free">free to use or share</option>
-                                <option value="free-commerce">free to use or share, even commercially</option>
-                                <option value="free-modify">free to use, share or modify</option>
-                                <option value="free++">free to use, share, modify, even commercially</option>
-                              </select>
-                              </div>
 
-                
-                           
+
             </div>
-        
-        <div class="form-subsection">
-        <p>Find pages in the language that you select.</p>   
-        <p>Find pages published in a particular region.</p>
-        <p>Find pages updated within the time that you specify.</p>
-        <p>Search one site (like <span> wikipedia.org</span> ) or limit your results to a domain like <span> .edu, .org or .gov</span></p>
-        <p>Search for terms in the whole page, page title or web address, or links to the page you're looking for.</p>
-        <p>Tell SafeSearch whether to filter sexually explicit content.</p>
-        <p>Find pages in the format that you prefer.</p>
-        <p>Find pages that you are free to use yourself.</p>
-        </div>
-        </div>
+
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name">file type:</label>
+                </div>
+                <div class="input-box">
+                    <select name="file-type">
+                        <option value="default">any format</option>
+                        <option value="pdf">Adobe Acrobat (.pdf)</option>
+                        <option value="ppt">Microsoft PowerPoint (.ppt)</option>
+                        <option value="doc">Microsoft Word(.doc)</option>
+                        <option value="dwf">AutoDesk (.dwf)</option>
+                      </select>
+                </div>
+                <div class="subtext">
+                    <p class="subtext">Find pages in the format that you prefer.
+                    </p>
+                </div>
+
+
+
+            </div>
+            <div class="form-item">
+                <div class="label-name">
+                    <label class="form-item-name"><a class="safe-search" href="https://support.google.com/websearch?p=ws_images_usagerights&hl=en">usage right:</a></label>
+                </div>
+                <div class="input-box">
+                    <select name="licence">
+                        <option value="default">not filtered by licence</option>
+                        <option value="free">free to use or share</option>
+                        <option value="free-commerce">free to use or share, even commercially</option>
+                        <option value="free-modify">free to use, share or modify</option>
+                        <option value="free++">free to use, share, modify, even commercially</option>
+                      </select>
+                </div>
+                <div class="subtext">
+                    <p class="subtext">Find pages that you are free to use yourself.
+                    </p>
+                </div>
+
+
+
+            </div>
+
+
         </form>
-        
-        <div class="advanced">
-        <input type="submit" value="Advanced Search">
-        </div>
-    
-    
+
+    </div>
+
+    <div class="button">
+        <input class= "submit-button" type="submit" name="advanced-search" value="Advanced Search">
+    </div>
+
 </body>
+
 </html>

@@ -31,21 +31,117 @@ hr {
 .sub-heading{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
     
 }
-
 .sub-head1{
-   padding-left: 55px;
-   font-size: 20px;
-   padding-top: 50px;
-}
+    padding-left: 55px;
+    font-size: 20px;
+    padding-top: 50px;
+ }
 
-.sub-head2{
+ .sub-head2{
     padding-right: 25em;
     padding-top: 50px;
     font-weight: bolder;
     color: #777777;
  }
+
+ .main{
+     padding-bottom: 70px;
+ }
+
+
+/* correction css layout*/
+.form-section {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.form-item {
+    display: flex;
+    
+    width: 100%;
+    
+}
+
+.label-name{
+    width: 20%;
+    padding-top: 16px;
+    padding-left: 30px;
+    
+}
+
+.input-box {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+.input-box input{
+    width: 100%;
+    padding: 10px;
+}
+.subtext{
+    width: 70%;
+    padding-left: 16px;
+    padding-top: 10px;
+    font-size: smaller;
+}
+
+
+@media (max-width: 480px){
+    .form-item{
+        flex-direction: column;
+    }
+}
+
+.safe-search{
+    text-decoration: none;
+}
+.safe-search:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+select{
+    width: 555px;
+    background-color: #f3f3f3;
+    border-style: outset;
+    border-radius: 5px;
+}
+
+span{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-right: 70px;
+    }
+
+.submit-button{
+    background-color: #4788ef;
+    color:white;
+    padding: 10px;
+}    
+
+
+/* Mobashirs code */
+/* 
+
+
+
+
 .main{
     display: flex;
     justify-content: space-between;
@@ -132,6 +228,7 @@ select{
     color:white;
     border-radius: 5px;
     width:180px;
+
    }
 
    .advanced input:hover{
@@ -142,4 +239,4 @@ select{
 
    span{
        font-family: 'Courier New', Courier, monospace;
-   }
+   } */
