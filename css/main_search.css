@@ -50,10 +50,10 @@ form {
     .search-box{
         display: flex;
         align-self: center;
-        width: 270px;
+        width: 300px;
         border-radius: 50px;
         border: solid rgb(206, 206, 206) 1px;
-        padding:12px;
+        padding:15px;
     }
 }
 
