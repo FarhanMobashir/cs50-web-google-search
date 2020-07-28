@@ -46,6 +46,33 @@ hr {
     color: #777777;
  }
 
+ @media(max-width:480px){
+     .sub-head1,.sub-head2{
+         text-align: center;
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+ }
+
+ @media(max-width:480px){
+     .form-section{
+         display: flex;
+         flex-direction: row;
+     }
+ }
+
+ @media(max-width:480px){
+     .input-box,.subtext,.label-name,.range-box{
+         align-self: center;
+     }
+ }
+
+ @media(max-width:480px){
+     .range-box{
+         flex-direction: column;
+     }
+ }
+
  .main{
      padding-bottom: 70px;
  }
